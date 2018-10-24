@@ -8,10 +8,10 @@ BeerItem = React.createClass({
 
 	render: function() {
 		var date = moment(this.props.beer.date).format("DD/MM/YYYY");	
-		var tail = this.props.beer.beers > 1 ? "beers" : "beer";
+		var tail = this.props.beer.beers > 1 ? "girls" : "girl";
 
 		return (
-			<li onClick={this.handleClick}>On <strong>{date}</strong> grabbed <strong>{this.props.beer.beers}</strong> {tail}</li>
+			<li onClick={this.handleClick}>On <strong>{date}</strong> closed <strong>{this.props.beer.beers}</strong> {tail}</li>
 		);
 	}
 })

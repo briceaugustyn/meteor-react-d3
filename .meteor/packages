@@ -27,3 +27,5 @@ check
 standard-minifier-css
 standard-minifier-js
 shell-server
+accounts-password
+accounts-ui

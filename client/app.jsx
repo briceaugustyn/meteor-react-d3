@@ -30,7 +30,8 @@ App = React.createClass({
 		  	<div className="page-header">
 					<center>
 						<h1>
-						<i className="fa fa-beer"></i> Beer 
+						<i className="fa fa-female"></i> Girls Count 
+					
 						<small> Dashboard</small></h1>
 					</center>
 			</div>
@@ -44,6 +45,10 @@ App = React.createClass({
 
 					<div className="col-md-offset-2 col-md-6">					
 						<BarChart data={this.mapData()} width="480" height="320"/>
+					</div>
+					<div className="col-md-offset-2 col-md-6">					
+						<BarChart data={this.mapData()} width="480" height="320"/>
+					hello
 					</div>
 				</div>
 			</div>        
